@@ -39,6 +39,7 @@ section svg{
 }
 .navegacion-principal{
    display: flex; 
+
    justify-content: space-between;
 }
 .navegacion-principal a {
@@ -53,6 +54,13 @@ section svg{
     color:black;
 }
 
-@media (min-width: 480px ){
-    bo
+@media (max-width: 768px) {
+    .navegacion-principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+@media (min-width: 768px) {
+    h1{}
 }
